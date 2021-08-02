@@ -1,7 +1,7 @@
 <template>
     <input v-model="outbox" name="outbox" />
     <button @click="sendtoinbox">Send to Inbox</button>
-    <h3>[{{ inbox }}]</h3>
+    <h3>[ {{ inbox }} ]</h3>
 </template>
 
 <script>
